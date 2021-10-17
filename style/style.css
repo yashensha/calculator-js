@@ -142,3 +142,9 @@ body
     background-color: rgb(201, 40, 40);
     border-color: rgb(201, 40, 40); 
 }
+.none
+{
+color: #fff;
+background-color: #fff;
+border-color: #fff;
+}
