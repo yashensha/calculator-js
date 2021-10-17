@@ -77,6 +77,10 @@ body
     border-style: solid;
     border-width: 2px;
 }
+.op p
+{
+    font-size: 35px;
+}
 
 .normal
 {
