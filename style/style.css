@@ -137,3 +137,8 @@ body
     color: #fff;
     border-color: rgb(238, 51, 51); 
 }
+
+.red:active{
+    background-color: rgb(201, 40, 40);
+    border-color: rgb(201, 40, 40); 
+}
