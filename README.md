@@ -25,7 +25,7 @@ justify-content: center;
 ![flex-box](https://css-tricks.com/wp-content/uploads/2018/10/01-container.svg)
 <br>
 
-##### display
+#### display
 
 This defines a flex container; inline or block depending on the given value. It enables a flex context for all its direct children.
 
@@ -36,7 +36,7 @@ This defines a flex container; inline or block depending on the given value. It 
 ```
 <br>
 
-##### flex-direction
+#### flex-direction
 
 ![direction](https://css-tricks.com/wp-content/uploads/2018/10/flex-direction.svg)
 
@@ -57,7 +57,7 @@ This establishes the main-axis, thus defining the direction flex items are place
 
 <br>
 
-##### flex-warp
+#### flex-warp
 
 ![flex-warp](https://css-tricks.com/wp-content/uploads/2018/10/flex-wrap.svg)
 
