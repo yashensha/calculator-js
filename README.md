@@ -51,7 +51,7 @@ This establishes the main-axis, thus defining the direction flex items are place
 
 - **row-reverse**: right to left in ltr; left to right in rtl
 
-- column: same as row but top to bottom
+- **column:** same as row but top to bottom
 
 - **column-reverse**: same as row-reverse but bottom to top
 
