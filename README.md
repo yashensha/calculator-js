@@ -18,3 +18,8 @@ justify-content: center;
     src: url('./path');
 }
 ```
+>Video refered:
+
+```
+https://www.youtube.com/watch?v=CI2GwL--ll8
+```

@@ -13,9 +13,9 @@
     <!-------- calculator-body-starts-here  ------->
 <div class="calculator-body">
     <!-- place-to-show-inputed-values-->
-<div class="text-body">
-    <p>0</p>
-    <div class="op">
+<div class="text-body" >
+    <p id="history">0</p>
+    <div class="op" id="op">
         <p></p>
     </div>
 </div>
@@ -24,34 +24,34 @@
 <!-- Key-goes-here  -->
 <div class="btn-box">
     <div class="row">
-        <button class="btn red">C</button>
-        <button class="btn normal">CE</button>
-        <button class="btn normal">%</button>
-        <button class="btn orange"><span>&#247;</span></button>
+        <button class="btn red" id="c">C</button>
+        <button class="btn normal" id="ce">CE</button>
+        <button class="btn normal" id="%">%</button>
+        <button class="btn orange" id="/"><span>&#247;</span></button>
     </div>
     <div class="row">
-        <button class="btn numbers">7</button>
-        <button class="btn numbers">8</button>
-        <button class="btn numbers">9</button>
-        <button class="btn orange"><span>&#215;</span></button>
+        <button class="btn numbers" id="7">7</button>
+        <button class="btn numbers" id="8">8</button>
+        <button class="btn numbers" id="9">9</button>
+        <button class="btn orange" id="multi"><span>&#215;</span></button>
     </div>
     <div class="row">
-        <button class="btn numbers">4</button>
-        <button class="btn numbers">5</button>
-        <button class="btn numbers">6</button>
-        <button class="btn orange"><span>&#8722;</span></button>
+        <button class="btn numbers" id="4">4</button>
+        <button class="btn numbers"id="5">5</button>
+        <button class="btn numbers"id="6">6</button>
+        <button class="btn orange"id="sub"><span>&#8722;</span></button>
     </div>
     <div class="row">
-        <button class="btn numbers">1</button>
-        <button class="btn numbers">2</button>
-        <button class="btn numbers">3</button>
-        <button class="btn orange">+</button>
+        <button class="btn numbers"id="1">1</button>
+        <button class="btn numbers"id="2">2</button>
+        <button class="btn numbers"id="3">3</button>
+        <button class="btn orange"id="add">+</button>
     </div>
     <div class="row">
-        <button class="btn numbers">00</button>
-        <button class="btn numbers">0</button>
+        <button class="btn numbers"id="00">00</button>
+        <button class="btn numbers"id="0">0</button>
         <button class="btn none" aria-disabled="">d</button>
-        <button class="btn blue">=</button>
+        <button class="btn blue"id="eq">=</button>
     </div>
 </div>
 
@@ -60,8 +60,10 @@
 </div>
     <!-------- calculator-body-ends-here  ------->
     <script>
-
-
+        function getHistory()
+        {
+            document.getElementById("history").innerHTML
+        }
     </script>
 </body>
 
