@@ -1,16 +1,18 @@
          function allZero()
          {
-            document.getElementById("history").innerHTML = ""
-            document.getElementById("op").innerHTML = ""
+            document.getElementById("history").value = ""
         }
 
             // All-numbers-event-listsening
          function btnClick(val)
          {
-            document.getElementById("history").innerHTML = document.getElementById("history").innerHTML + val 
+            document.getElementById("history").value = document.getElementById("history").value + val
          }
 
-         function operatorClick(val)
+         function clickEqual()
          {
-             document.getElementById("op").innerHTML = val
+             var text = document.getElementById("history").value
+            var result = eval(text);
+            document.getElementById('history').value = result
+             
          }

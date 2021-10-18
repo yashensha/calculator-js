@@ -1,7 +1,7 @@
 /* font import */
 @font-face {
     font-family: 'Digital';
-    src: url('./fonts/Digital7-1e1Z.ttf');
+    src: url('./fonts/Calculator.ttf');
 }
 /* Styling */
 *
@@ -38,25 +38,19 @@ body
 .text-body
 {
     background-color: rgb(104, 102, 90);
-    border-style: groove;
+    border-style: none;
     height: 70px;
     width: 100%;
-    display: flex;
-    align-items: center;
     justify-content: flex-end;
-    padding: 7px;
-    overflow: hidden;
+    overflow: visible;
+    font-family: Digital;
+    font-size: 76px;
+    text-align: right;
+    color: rgb(0, 0, 0);
+    margin-bottom: 18px;
+    padding: 2px;
 }
 
-.text-body p{
-    
-    font-family: Digital;
-    color: rgb(0, 0, 0);
-    font-size: 76px;
-    padding: 2px;
-    margin-bottom: 18px;
-    
-}
 .btn-box
 {
     display: flex;
