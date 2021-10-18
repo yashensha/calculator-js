@@ -34,4 +34,3 @@ https://www.youtube.com/watch?v=CI2GwL--ll8
 - Add `onclick = funct-to-call` on btn to click.
 
 - Give `value` to change.
-

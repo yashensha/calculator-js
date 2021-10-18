@@ -16,7 +16,7 @@
 
 
     <div class="text-body" >
-    <p id="history">0</p>
+    <p id="history"></p>
     <div class="op" >
         <p id="op"></p>
     </div>
@@ -31,31 +31,31 @@
         <button class="btn red" onclick="allZero()" id="c">C</button>
         <button class="btn normal" onclick="getHistory()" id="ce">CE</button>
         <button class="btn normal" id="%">%</button>
-        <button class="btn orange" id="/"><span>&#247;</span></button>
+        <button class="btn orange" onclick="operatorClick('/')" id="/"><span>&#247;</span></button>
     </div>
     <div class="row">
-        <button class="btn numbers" onclick="7" id="7">7</button>
-        <button class="btn numbers" id="8">8</button>
-        <button class="btn numbers" id="9">9</button>
-        <button class="btn orange" id="multi"><span>&#215;</span></button>
+        <button class="btn numbers" onclick="btnClick(7)" id="7">7</button>
+        <button class="btn numbers" onclick="btnClick(8)" id="8">8</button>
+        <button class="btn numbers" onclick="btnClick(9)" id="9">9</button>
+        <button class="btn orange" onclick="operatorClick('*')" id="multi"><span>&#215;</span></button>
     </div>
     <div class="row">
-        <button class="btn numbers" id="4">4</button>
-        <button class="btn numbers"id="5">5</button>
-        <button class="btn numbers"id="6">6</button>
-        <button class="btn orange"id="sub"><span>&#8722;</span></button>
+        <button class="btn numbers" onclick="btnClick(4)" id="4">4</button>
+        <button class="btn numbers" onclick="btnClick(5)" id="5">5</button>
+        <button class="btn numbers" onclick="btnClick(6)" id="6">6</button>
+        <button class="btn orange" onclick="operatorClick('-')" id="sub"><span>&#8722;</span></button>
     </div>
     <div class="row">
-        <button class="btn numbers"id="1">1</button>
-        <button class="btn numbers"id="2">2</button>
-        <button class="btn numbers"id="3">3</button>
-        <button class="btn orange"id="add">+</button>
+        <button class="btn numbers" onclick="btnClick(1)" id="1">1</button>
+        <button class="btn numbers" onclick="btnClick(2)" id="2">2</button>
+        <button class="btn numbers" onclick="btnClick(3)" id="3">3</button>
+        <button class="btn orange" onclick="operatorClick('+')" id="add">+</button>
     </div>
     <div class="row">
-        <button class="btn numbers"id="00">00</button>
-        <button class="btn numbers"id="0">0</button>
+        <button class="btn numbers" onclick="btnClick(00)" id="00">00</button>
+        <button class="btn numbers" onclick="btnClick(0)" id="0">0</button>
         <button class="btn none" aria-disabled="">d</button>
-        <button class="btn blue"id="eq">=</button>
+        <button class="btn blue" onclick="operatorClick('=')" id="eq">=</button>
     </div>
 </div>
 
