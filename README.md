@@ -38,7 +38,9 @@ https://www.youtube.com/watch?v=CI2GwL--ll8
 ## Change values:
 
 >Input value change.
+
 ```document.getElementById("#ID").value = ""```
 
 >Element value change.
+
 ``` document.getElementById("#ID").innerHTML.value = ""```
