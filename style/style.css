@@ -142,3 +142,28 @@ color: #fff;
 background-color: #fff;
 border-color: #fff;
 }
+
+/* Responsive */
+
+@media screen and (max-width: 562px)
+{
+    .calculator-body
+    {
+        height: 424px;
+        width: 342px;
+    }
+
+    .btn
+    {
+        width: 39px;
+    height: 39px;
+    font-size: 18px;
+    }
+    .text-body
+    {
+        height: 70px;
+        font-size: 64px;
+    }
+
+
+}

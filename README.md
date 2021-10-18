@@ -39,8 +39,22 @@ https://www.youtube.com/watch?v=CI2GwL--ll8
 
 >Input value change.
 
-```document.getElementById("#ID").value = ""```
+```
+document.getElementById("#ID").value = ""
+```
 
 >Element value change.
 
-``` document.getElementById("#ID").innerHTML.value = ""```
+```
+document.getElementById("#ID").innerHTML.value = ""
+```
+
+## @media Responsiveness.
+
+```
+@media screen and (max-width: 992px) {
+  body {
+    background-color: blue;
+  }
+}
+```
