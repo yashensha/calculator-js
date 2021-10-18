@@ -27,11 +27,11 @@ https://www.youtube.com/watch?v=CI2GwL--ll8
 ### Call Function from btn-click
 
 
-- Make a `function on script path`
+- Make a `function` on script path.
 
-- call `id-of-element-to-change` in script.
+- Call `id-of-element-to-change` in script.
 
 - Add `onclick = funct-to-call` on btn to click.
 
-- Give value to change.
+- Give `value` to change.
 
