@@ -24,7 +24,7 @@ justify-content: center;
 https://www.youtube.com/watch?v=CI2GwL--ll8
 ```
 
-### Call Function from btn-click
+## Call Function from btn-click
 
 
 - Make a `function` on script path.
