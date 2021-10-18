@@ -13,24 +13,28 @@
     <!-------- calculator-body-starts-here  ------->
 <div class="calculator-body">
     <!-- place-to-show-inputed-values-->
-<div class="text-body" >
+
+
+    <div class="text-body" >
     <p id="history">0</p>
-    <div class="op" id="op">
-        <p></p>
+    <div class="op" >
+        <p id="op"></p>
     </div>
-</div>
+    </div>
+
+
 <!-- place-to-show-inputed-values (END)-->
 
 <!-- Key-goes-here  -->
 <div class="btn-box">
     <div class="row">
-        <button class="btn red" id="c">C</button>
-        <button class="btn normal" id="ce">CE</button>
+        <button class="btn red" onclick="allZero()" id="c">C</button>
+        <button class="btn normal" onclick="getHistory()" id="ce">CE</button>
         <button class="btn normal" id="%">%</button>
         <button class="btn orange" id="/"><span>&#247;</span></button>
     </div>
     <div class="row">
-        <button class="btn numbers" id="7">7</button>
+        <button class="btn numbers" onclick="7" id="7">7</button>
         <button class="btn numbers" id="8">8</button>
         <button class="btn numbers" id="9">9</button>
         <button class="btn orange" id="multi"><span>&#215;</span></button>
@@ -59,12 +63,7 @@
 
 </div>
     <!-------- calculator-body-ends-here  ------->
-    <script>
-        function getHistory()
-        {
-            document.getElementById("history").innerHTML
-        }
-    </script>
+    <script src="./script/script.js"></script>
 </body>
 
 </html>
