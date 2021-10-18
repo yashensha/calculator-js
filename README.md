@@ -37,13 +37,13 @@ https://www.youtube.com/watch?v=CI2GwL--ll8
 
 ## Change values:
 
->Input value change.
+### Input value change.
 
 ```
 document.getElementById("#ID").value = ""
 ```
 
->Element value change.
+### Element value change.
 
 ```
 document.getElementById("#ID").innerHTML.value = ""
@@ -58,3 +58,4 @@ document.getElementById("#ID").innerHTML.value = ""
   }
 }
 ```
+
